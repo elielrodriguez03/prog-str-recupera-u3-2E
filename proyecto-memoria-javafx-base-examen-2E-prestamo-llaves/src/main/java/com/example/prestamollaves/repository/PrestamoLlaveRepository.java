@@ -37,4 +37,13 @@ public class PrestamoLlaveRepository {
         }
         return false;
     }
+
+    public void agregar(PrestamoLlave registro) {
+        registros.add(registro);
+
+
+    }
+    public void eliminar(PrestamoLlave registro){
+        registros.add(registro);
+    }
 }
